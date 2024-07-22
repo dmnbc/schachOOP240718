@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Brett">
-    <Position X="13" Y="3" Width="2.5" />
+    <Position X="12.75" Y="3" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Brett.h</FileName>
@@ -22,9 +22,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Feld">
-    <Position X="16.25" Y="3.5" Width="1.5" />
+    <Position X="16.25" Y="3.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAABAAEAAAAAA=</HashCode>
       <FileName>Feld.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -49,10 +49,10 @@
       <FileName>Laeufer.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Spiel" Collapsed="true">
+  <Class Name="Spiel">
     <Position X="10.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAkA=</HashCode>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAkA=</HashCode>
       <FileName>Spiel.h</FileName>
     </TypeIdentifier>
   </Class>

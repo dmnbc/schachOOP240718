@@ -1,6 +1,6 @@
 #pragma once
 #include "Figur.h"
-class Bauer :  public Figur  // extende
+class Bauer :  public Figur  // extends
 {
 };
-// Helo World
+
