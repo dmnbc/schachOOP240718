@@ -24,19 +24,19 @@
   <Class Name="Feld">
     <Position X="16.25" Y="3.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAABAAEAAAAAA=</HashCode>
+      <HashCode>AAAAAgAAAIAAAAgAAAAAAAAAAAAAAAAAABAAEAAAAAA=</HashCode>
       <FileName>Feld.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Figur">
-    <Position X="6" Y="0.5" Width="1.5" />
+    <Position X="6" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
       <FileName>Figur.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Koenig" Collapsed="true">
-    <Position X="5" Y="1.75" Width="1.5" />
+    <Position X="5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Koenig.h</FileName>
@@ -64,7 +64,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Turm" Collapsed="true">
-    <Position X="7.25" Y="1.75" Width="1.5" />
+    <Position X="7.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Turm.h</FileName>

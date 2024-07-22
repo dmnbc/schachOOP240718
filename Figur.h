@@ -5,7 +5,10 @@
 using namespace std;
 class Figur
 {
+	
 public:
+	bool hell;
 	Figur();
+	Figur(std::string position);
 };
 

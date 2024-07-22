@@ -16,8 +16,8 @@ Brett::Brett()
 			//std::cout << spalte << zeile; 
 			key += spalte;
 			key += zeile;
-			std::cout << key << " :";
-			spielstand[key] = Feld();
+			//std::cout << key << " :";
+			spielstand[key] = Feld(key); // ctor mit parameter
 
 		}
 	}
