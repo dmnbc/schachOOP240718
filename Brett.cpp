@@ -41,9 +41,12 @@ void Brett::anzeigen()
 			//std::cout << spalte << zeile; 
 			key += spalte;
 			key += zeile;
-			//std::cout << key << " :";			
+			//std::cout << key << " :";		
+			// 
+			Figur f = spielstand[key].get_figur();
+			char t = f.typ;
 			std::cout << spielstand[key].get_figur().typ;
-			system("Pause");
+			//system("Pause");
 
 		   // wenn eine Figur darauf steht
 

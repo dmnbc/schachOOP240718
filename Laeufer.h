@@ -3,5 +3,8 @@
 class Laeufer :
     public Figur
 {
+public:
+    Laeufer();
+    Laeufer(bool);
 };
 

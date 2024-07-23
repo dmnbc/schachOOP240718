@@ -3,5 +3,8 @@
 class Turm :
     public Figur
 {
+public:
+    Turm();
+    Turm(bool);
 };
 

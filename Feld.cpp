@@ -1,5 +1,11 @@
 #include "Feld.h"
 #include "Bauer.h"
+#include "Turm.h"
+#include "Springer.h"
+#include "Laeufer.h"
+#include "Dame.h"
+#include "Koenig.h"
+#include "Leer.h"
 
 int Feld::lfdFeldNr = 0;
 
@@ -18,11 +24,29 @@ Feld::Feld(std::string key)
 	switch (key[1])   // a1       a index 0 ist spalte / 1 index 1 ist zeile 
 	{
 	case '1':  // weiﬂe Offiziere
-		std::cout << "weiﬂe Offiziere";
-		break;
-
 	case '8':  // schwarze Offiziere
-		std::cout << "schwarze Offiziere";
+		std::cout << "Offiziere";
+		switch (key[0])  //spalte
+		{
+		case 'a':
+		case 'h': // t¸rme
+			figur = Turm(key[1] % 2 );
+			break;
+		case 'b':
+		case 'g': // springer
+			figur = Springer(key[1] % 2 );
+			break;
+		case 'c':
+		case 'f': // laeufer
+			figur = Laeufer(key[1] % 2 );
+			break;
+		case 'd':
+			figur = Dame(key[1] % 2 );
+			break;
+		case 'e': // koenig
+			figur = Koenig(key[1] % 2 );
+			break;
+		}
 		break;
 	case '7':  // schwarze Bauern
 	case '2':  // weiﬂe Bauern
@@ -30,7 +54,7 @@ Feld::Feld(std::string key)
 		break;
 	default:
 		// keine Figur Feld bleibt leer
-		;
+		figur = Leer(key[1] % 2 == 0);
 
 	}
 	

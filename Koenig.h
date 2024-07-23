@@ -3,5 +3,8 @@
 class Koenig :
     public Figur
 {
+public:
+    Koenig();
+    Koenig(bool);
 };
 

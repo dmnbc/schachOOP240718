@@ -3,5 +3,8 @@
 class Springer :
     public Figur
 {
+public:
+    Springer();
+    Springer(bool);
 };
 
