@@ -1,5 +1,5 @@
 #include "Brett.h"
-
+#include "consolenfarbe.h"
 Brett::Brett()
 {
 	
@@ -21,6 +21,34 @@ Brett::Brett()
 
 		}
 	}
+}
 
+void Brett::anzeigen()
+{
+	farbe::concolinit();
+	system("CLS");
+	std::cout << "Spielstand anzeigen\n"; // map<string key, Feld value> spielstand
+	// für alle Felder
+	for (char zeile = '8'; zeile >= '1'; zeile--)
+	{
+		for (char spalte = 'a'; spalte <= 'h'; spalte++)
 
+		{
+			// zeige das Feld in seiner Farbe
+			farbe::setbackcolor((zeile+spalte)%2 ? farbe::concol::grey : farbe::concol::white);
+			//zeige die Figur auf dem Feld
+			std::string key;
+			//std::cout << spalte << zeile; 
+			key += spalte;
+			key += zeile;
+			//std::cout << key << " :";			
+			std::cout << spielstand[key].get_figur().typ;
+			system("Pause");
+
+		   // wenn eine Figur darauf steht
+
+			 // zeige Figur in ihrer Farbe
+		}
+		std::cout << "\n";
+	}
 }

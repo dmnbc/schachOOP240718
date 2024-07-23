@@ -17,7 +17,7 @@ class Spiel
 	//methoden
 public:
 	Spiel();       // ctor 
-	
+	Brett get_b(); 
 
 };
 

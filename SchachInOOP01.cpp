@@ -14,7 +14,10 @@ int main()
 {
     setlocale(LC_ALL, "de_DE.UTF-8");
     Spiel s;  // OS meldet die Startadresse eines Objektes  s am der Stelle 0x12345678
-    std::cout << "Spiel instanziert";        // Compiler hat eine interne Liste  dass die ersten 4 byte ein int mit dem Namen zugnummer
+    std::cout << "Spiel instanziert"; 
+    // Anzeige des Spiels in der Grundstellung // Aufruf der Methode aus Brett
+    s.get_b().anzeigen();
+
    
 }
 

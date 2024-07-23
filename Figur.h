@@ -7,6 +7,7 @@ class Figur
 {
 	
 public:
+	char typ;
 	bool hell;
 	Figur();
 	Figur(std::string position);

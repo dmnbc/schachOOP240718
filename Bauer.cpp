@@ -8,5 +8,7 @@ Bauer::Bauer()
 Bauer::Bauer(bool farbe)
 {
 	hell = farbe; 
-	std::cout<< (hell?"hell":"dunkel")<<"Bauer() wird genutzt\n";
+	typ = hell ? 'b' : 'B';
+	std::cout<< (hell?"hell":"dunkel")<<"Bauer "<<typ<<" wird genutzt\n";
+	
 }

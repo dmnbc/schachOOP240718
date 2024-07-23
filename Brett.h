@@ -12,6 +12,7 @@ private:
 
 public:
 	Brett();
+	void anzeigen();
 
 };
 

@@ -11,6 +11,7 @@ private:
 public:
 	Feld();
 	Feld(std::string);
+	Figur get_figur();
 
 };
 
